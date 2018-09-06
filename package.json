@@ -1,0 +1,11 @@
+{
+  "name": "travis_npm_2fa_deploy",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}

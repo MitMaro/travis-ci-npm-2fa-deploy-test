@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+branches:
+  only:
+  - master
+deploy:
+  provider: npm
+  email: mitmaro_dev_travis_ci_2fa_test@mitmaro.ca
+  on:
+    repo: MitMaro/travis-ci-npm-2fa-deploy-test
+  api_key:
+    secure: b5XJ6nhufAd1O4hPDJfEvW4Lzo5Yqoph56CcMciZn5nRthIYOg7N5U/XoFTqc0UI1ALKiu5mP85clkjQrEC5tT1etFGHM5JTFtXlu9p4vZPEPr9gsyVlesItlktHulQwRN2RuY61nf29PFQcFxzajp/jKu3h6pQX4mj58vGt0T57FoE+//cTDQyzWzn/wTEytpPurQxZ5qbPnijtQR/QEYqV9qIvAPv0NX8LPavezIuo3X1se9xfwVb7fu52FieKuRwOdnn4mAdHjgVu0KlGt1hRGgjy5c38pgc6w1fSnGBUch8h7/U9xAfHYiW0I6RPNdY49qyhd/YsT4ufmj2/zlS5Ya1ZrKh/QU2bRv6nUYcWY5HIV71fx6kp6k1lghxjmb66etw4XnPEgXovSVF1epT21xfNE3p9hHZjTNtVISt5xfQP70vzfUFMEz1uCHbLolXzsjZeEuP9vzz9z9gJx8SdadHpD7dgSSjGWiduE+RLijtwonquhSbKeiGmRTSD6O/axQN49vhtbVqL5ayqo/9RY77pcCy9VTIhq0dGKbgNy0sfRFJ7w8PMZO+2mtmec6oD2igJVlnY8JU8ZdXRm3aoMtIzd/5LvT5jxU0IlMCNW1T/1x/TCqxxzo/4Kh5Z0dXfTgJbDmHTw3YkPtjpAct7pYTeFQd8ksVk9ddQnS0=
+
